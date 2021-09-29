@@ -4,9 +4,10 @@ $orange: #FFBB42
     margin: 0
     box-sizing: border-box
     font-family: sans-serif
-    font-family: "Lato"
+    font-family: "Open Sans"
     
 header 
+    font-family: "Lato"
     display: flex
     padding-top: 22px
     padding-bottom: 22px
@@ -117,6 +118,7 @@ header
 .banner__head
     color: white
     text-transform: uppercase
+    font-weight: 800
 
 .banner__text
     color: white
@@ -189,11 +191,7 @@ header
     margin: 0 auto
     padding-bottom: 0
     margin-bottom: -380px
-    // height: 100%
-    // background-image: url(../img/Laptop.png)
-    // background-position: center
-    // background-repeat: no-repeat
-    // padding: 17px 17px 61px 17px
+
     &>img
         max-width: 647px
         position: relative
@@ -212,3 +210,11 @@ header
 #service
     padding-top: 200px
     background-color: white
+    display: flex
+    flex-direction: column
+    justify-content: center
+    align-items: center
+
+.service__heading
+    h1
+        text-transform: uppercase
