@@ -213,6 +213,12 @@ header {
   }
 }
 
+@media screen and (max-width: 1040px) {
+  .banner__form {
+    padding-bottom: 50px;
+  }
+}
+
 .banner__form .banner__input {
   max-height: 47px;
   background-color: white;
@@ -296,6 +302,12 @@ header {
           justify-content: center;
 }
 
+@media screen and (max-width: 1040px) {
+  .banner__slider {
+    display: none;
+  }
+}
+
 .banner__laptop {
   width: 60%;
   padding-bottom: 0;
@@ -336,7 +348,14 @@ header {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
+  margin: 0 auto;
   padding-bottom: 150px;
+}
+
+@media screen and (max-width: 1040px) {
+  #service {
+    padding-top: 100px;
+  }
 }
 
 .service__heading {
@@ -358,6 +377,21 @@ header {
       grid-template-rows: repeat(3, 1fr);
   grid-column-gap: 50px;
   grid-row-gap: 80px;
+}
+
+@media screen and (max-width: 1030px) {
+  .service__list {
+    padding-right: 20px;
+  }
+}
+
+@media screen and (max-width: 500px) {
+  .service__list {
+    -ms-grid-columns: 1fr;
+        grid-template-columns: 1fr;
+    -ms-grid-rows: (1fr)[6];
+        grid-template-rows: repeat(6, 1fr);
+  }
 }
 
 .service__list li {

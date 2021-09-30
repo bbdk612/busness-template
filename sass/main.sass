@@ -135,6 +135,9 @@ header
         flex-direction: column
         justify-content: center
         align-items: center
+    
+    @media screen and (max-width: 1040px)
+        padding-bottom: 50px
 
     .banner__input
         max-height: 47px
@@ -186,6 +189,9 @@ header
     align-items: center
     justify-content: center
 
+    @media screen and (max-width: 1040px)
+        display: none
+
 .banner__laptop
     width: 60% 
     padding-bottom: 0
@@ -214,7 +220,12 @@ header
     flex-direction: column
     justify-content: center
     align-items: center
+    margin: 0 auto
     padding-bottom: 150px
+
+    @media screen and (max-width: 1040px)
+        padding-top: 100px
+
 .service__heading
     text-align: center
     margin-bottom: 90px
@@ -229,6 +240,16 @@ header
     grid-template-rows: repeat( 3, 1fr)
     grid-column-gap: 50px
     grid-row-gap: 80px
+
+    @media screen and (max-width: 1030px)
+        padding-right: 20px
+
+    @media screen and (max-width: 500px)
+        grid-template-columns: 1fr
+        grid-template-rows: repeat( 6, 1fr)
+
+
+        
     li
         display: flex
         flex-direction: row 
