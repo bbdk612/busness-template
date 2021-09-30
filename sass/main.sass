@@ -4,9 +4,10 @@ $orange: #FFBB42
     margin: 0
     box-sizing: border-box
     font-family: sans-serif
-    font-family: "Lato"
+    font-family: "Open Sans"
     
 header 
+    font-family: "Lato"
     display: flex
     padding-top: 22px
     padding-bottom: 22px
@@ -117,6 +118,7 @@ header
 .banner__head
     color: white
     text-transform: uppercase
+    font-weight: 800
 
 .banner__text
     color: white
@@ -185,19 +187,15 @@ header
     justify-content: center
 
 .banner__laptop
-    width: 100% 
-    margin: 0 auto
+    width: 60% 
     padding-bottom: 0
     margin-bottom: -380px
-    // height: 100%
-    // background-image: url(../img/Laptop.png)
-    // background-position: center
-    // background-repeat: no-repeat
-    // padding: 17px 17px 61px 17px
+
     &>img
         max-width: 647px
         position: relative
         z-index: 100
+        left: -5px
         top: -340px
         margin-bottom: -10px
     
@@ -212,3 +210,46 @@ header
 #service
     padding-top: 200px
     background-color: white
+    display: flex
+    flex-direction: column
+    justify-content: center
+    align-items: center
+    padding-bottom: 150px
+.service__heading
+    text-align: center
+    margin-bottom: 90px
+
+    h1
+        text-transform: uppercase
+
+.service__list
+    list-style-type: none
+    display: grid
+    grid-template-columns: 1fr 1fr
+    grid-template-rows: repeat( 3, 1fr)
+    grid-column-gap: 50px
+    grid-row-gap: 80px
+    li
+        display: flex
+        flex-direction: row 
+        max-width: 465px
+        i
+            color: #79A3CD
+            padding-right: 40px
+    
+        &:first-child
+            i
+                color: #F6772C
+
+    i
+        font-size: 44px
+
+    .desc
+        h4
+            text-transform: uppercase
+            font-family: "Lato"
+            padding-bottom: 20px
+
+        p
+            color: #7B7B7B
+            font-size: 13px
