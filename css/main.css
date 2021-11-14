@@ -403,6 +403,9 @@ header {
   background-color: #709DCA;
   color: white;
 }
+.pricing__slider > li.best h1 {
+  color: white;
+}
 .pricing__slider > li.best h2 {
   color: white;
 }
