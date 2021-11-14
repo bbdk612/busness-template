@@ -469,4 +469,16 @@ header {
   text-transform: uppercase;
 }
 
+#HowItWorks {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-top: 150px;
+}
+
+.HowItWorks__head {
+  text-align: center;
+  padding-bottom: 80px;
+}
+
 /*# sourceMappingURL=main.css.map */
