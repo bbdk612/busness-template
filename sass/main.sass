@@ -433,7 +433,57 @@ header
     justify-content: center
     align-items: center
     padding-top: 150px
+    padding-bottom: 150px
+
+.HowItWorks__inner
+    display: flex
+    justify-content: center
+    flex-direction: column
+    align-items: center
 
 .HowItWorks__head
     text-align: center
     padding-bottom: 80px
+
+    h2
+        text-transform: uppercase
+
+.HowItWorks__steps
+    list-style-type: none
+    display: flex
+    flex-direction: row
+    justify-content: center
+    padding-bottom: 90px
+
+    .step
+        display: flex
+        flex-direction: column
+        align-items: center
+        text-align: center
+        max-width: 350px
+
+        &:not(:last-child)
+            padding-right: 80px
+
+        .icon
+            font-size: 64px
+            color: #709DCA
+            padding-bottom: 90px
+        
+        .bg-text h2
+            font-size: 15
+            text-transform: uppercase
+            padding-bottom: 30px
+            
+        .desc
+            color: #7B7B7B
+
+.HowItWorks__button
+    text-transform: uppercase
+    color: white
+    font-size: 15px
+    outline: none
+    background-color: $orange
+    border: 0
+    border-radius: 3px
+    padding: 15px 25px 
